@@ -15,10 +15,6 @@ const ranks = {
     {
       name: 'Eubacteria',
       description: "Bacteria (common noun bacteria, singular bacterium) constitute a large domain of prokaryotic microorganisms. Typically a few micrometres in length, bacteria have a number of shapes, ranging from spheres to rods and spirals. Bacteria were among the first life forms to appear on Earth, and are present in most of its habitats. Bacteria inhabit soil, water, acidic hot springs, radioactive waste, and the deep portions of Earth's crust. Bacteria also live in symbiotic and parasitic relationships with plants and animals. Most bacteria have not been characterised, and only about half of the bacterial phyla have species that can be grown in the laboratory. The study of bacteria is known as bacteriology, a branch of microbiology."
-    },
-    {
-      name: '',
-      description: ''
     }
   ],
   phyla: [
@@ -41,10 +37,6 @@ const ranks = {
     {
       name: 'Proteobacteria',
       description: 'The "Proteobacteria" are a major phylum of Gram-negative bacteria. The name of the phylum has never been validly published as no type genus has been proposed, thus it must be styled in quotation marks as the name has no standing in nomenclature. They include a wide variety of pathogens, such as Escherichia, Salmonella, Vibrio, Helicobacter, Yersinia, and many other notable genera. Others are free-living (nonparasitic), and include many of the bacteria responsible for nitrogen fixation. Carl Woese established this grouping in 1987, calling it informally the "purple bacteria and their relatives". Because of the great diversity of forms found in this group, the "Proteobacteria" are named after Proteus, a Greek god of the sea capable of assuming many different shapes and is not named after the genus Proteus.'
-    },
-    {
-      name: '',
-      description: ''
     }
   ],
   classes: [
@@ -67,10 +59,6 @@ const ranks = {
     {
       name: 'Gammaproteobacteria',
       description: 'Gammaproteobacteria are a class of several medically, ecologically, and scientifically important groups of bacteria. An exceeding number of important pathogens belong to this class. Like all Proteobacteria, the Gammaproteobacteria are Gram-negative. The Gammaproteobacteria comprise several medically and scientifically important groups of bacteria, such as the Enterobacteriaceae, Vibrionaceae, and Pseudomonadaceae. A number of important pathogens belong to this class, e.g. Salmonella spp. (enteritis and typhoid fever), Yersinia pestis (plague), Vibrio cholerae (cholera), Pseudomonas aeruginosa (lung infections in hospitalized or cystic fibrosis patients), and Escherichia coli (food poisoning).'
-    },
-    {
-      name: '',
-      description: ''
     }
   ],
   orders: [
@@ -93,10 +81,6 @@ const ranks = {
     {
       name: 'Enterobacteriales',
       description: 'The Enterobacteriales are an order of gram-negative bacteria that includes only one family which is the Enterobacteriaceae.'
-    },
-    {
-      name: '',
-      description: ''
     }
   ],
   families: [
@@ -119,10 +103,6 @@ const ranks = {
     {
       name: 'Enterobacteriaceae',
       description: 'The Enterobacteriaceae are a large family of Gram-negative bacteria that includes, along with many harmless symbionts, many of the more familiar pathogens, such as Salmonella, Escherichia coli, Yersinia pestis, Klebsiella, and Shigella. Other disease-causing bacteria in this family include Proteus, Enterobacter, Serratia, and Citrobacter. This family is the only representative in the order Enterobacteriales of the class Gammaproteobacteria in the phylum Proteobacteria. Phylogenetically, in the Enterobacteriales, several peptidoglycan-less insect endosymbionts form a sister clade to the Enterobacteriaceae, but as they are not validly described, this group is not officially a taxon; examples of these species are Sodalis, Buchnera, Wigglesworthia, Baumannia cicadellinicola, and Blochmannia, but not former Rickettsias. Members of the Enterobacteriaceae can be trivially referred to as enterobacteria or "enteric bacteria", as several members live in the intestines of animals. In fact, the etymology of the family is enterobacterium with the suffix to designate a family (aceae)—not after the genus Enterobacter (which would be "Enterobacteraceae")—and the type genus is Escherichia.'
-    },
-    {
-      name: '',
-      description: ''
     }
   ],
   genera: [
@@ -145,10 +125,6 @@ const ranks = {
     {
       name: 'Escherichia',
       description: 'Escherichia is a genus of Gram-negative, nonspore forming, facultatively anaerobic, rod-shaped bacteria from the family Enterobacteriaceae. In those species which are inhabitants of the gastrointestinal tracts of warm-blooded animals, Escherichia species provide a portion of the microbially derived vitamin K for their host. A number of the species of Escherichia are pathogenic. The genus is named after Theodor Escherich, the discoverer of Escherichia coli.'
-    },
-    {
-      name: '',
-      description: ''
     }
   ]
 }
