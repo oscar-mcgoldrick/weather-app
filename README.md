@@ -1,15 +1,15 @@
-# A starter webpack project for React
+# Taxonomic Routing
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider this approach:
+This exercise has you building an experience to navigate some of the [Taxonomic Rank](https://en.wikipedia.org/wiki/Taxonomic_rank). We'll use [React Router]() to create the links and pages and manage browser history.
 
-* Fork this repo
-* Rename your repo according to the app you're building
+
+## Setup
+
+After cloning this repo:
 
 ```sh
-git clone https://github.com/dev-academy-challenges/[your-app].git
-cd [your-app] && npm install
+npm install
+npm start
 ```
 
-To start the development server with a watcher that refreshes your browser, run `npm start`. The assets built by webpack are placed in `server/static`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
 
-Additional components should be placed in `client/components`.
