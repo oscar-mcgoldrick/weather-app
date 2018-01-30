@@ -1,6 +1,6 @@
 # Taxonomic Routing
 
-This exercise has you building an experience to navigate some of the [Taxonomic Rank](https://en.wikipedia.org/wiki/Taxonomic_rank). We'll use [React Router]() to create the links and pages and manage browser history.
+This exercise has you building an experience to navigate some of the [Taxonomic Rank](https://en.wikipedia.org/wiki/Taxonomic_rank). We'll use [React Router](https://github.com/ReactTraining/react-router) to create the links and pages and manage browser history.
 
 
 ## Setup
@@ -8,8 +8,8 @@ This exercise has you building an experience to navigate some of the [Taxonomic 
 After cloning this repo:
 
 ```sh
-npm install
-npm start
+yarn
+yarn start
 ```
 
 
@@ -63,10 +63,7 @@ Create a new `/species/:id` route that uses a new `Species` component to show th
 Here are some ideas for future releases:
 
 * Add a _Home_ link in the `Nav` component.
-
 * Bold the selected rank as shown in the release 2 screenshot.
-
 * Capitalise the rank and classification names.
-
 * Think about a different way you could navigate around this data and implement it in a different branch.
 
