@@ -6,8 +6,9 @@ module.exports = {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  mode: 'development',
   module: {
-    loaders: [{
+    rules: [{
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/
@@ -18,4 +19,3 @@ module.exports = {
   },
   devtool: 'source-map'
 }
-
