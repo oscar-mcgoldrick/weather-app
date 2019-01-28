@@ -17,6 +17,12 @@
       "transform-class-properties"
     ]
   },
+  "jest": {
+    "testURL": "http://localhost/",
+    "setupFiles": [
+      "./tests/setup-env.js"
+    ]
+  },
   "author": "EDA",
   "license": "ISC",
   "devDependencies": {
