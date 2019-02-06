@@ -43,7 +43,7 @@ When you select a classification, navigate to `/rank/:rank/:name`. It should sho
 
 ## Release 4
 
-In this release, add a ```<Link to=`${match.url}/species`>Show species</Link>``` and a `SpeciesListing` component that shows all species in the selected classification. This is the first time you'll need to use `data/species.js`.
+In this release, add a ```<Link to={`${props.match.url}/species`}>Show species</Link>``` and a `SpeciesListing` component that shows all species in the selected classification. This is the first time you'll need to use `data/species.js`.
 
 ![after release 4](readme-images/release-4.png)
 
