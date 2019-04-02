@@ -8,8 +8,8 @@ This exercise has you building an experience to navigate some of the [Taxonomic 
 After cloning this repo:
 
 ```sh
-yarn
-yarn start
+npm install
+npm start
 ```
 
 
