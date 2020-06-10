@@ -1,7 +1,5 @@
 # Taxonomic Routing
 
-## This is an assessed exercise
-
 This exercise has you building an experience to navigate some of the [Taxonomic Rank](https://en.wikipedia.org/wiki/Taxonomic_rank). We'll use [React Router](https://github.com/ReactTraining/react-router) to create the links and pages and manage browser history.
 
 
