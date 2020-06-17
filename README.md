@@ -9,7 +9,7 @@ After cloning this repo:
 
 ```sh
 npm install
-npm start
+npm run dev
 ```
 
 
