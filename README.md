@@ -8,14 +8,23 @@ This exercise has you building an experience to navigate some of the [Taxonomic 
 After cloning this repo:
 
 ```sh
+cd taxonomic-routing
 npm install
 npm run dev
 ```
 
+You will need to set up `HashRouter` in your `client/index.js`. 
+
+ * Import the router from 'react-router-dom' at the top of the file. _i.e. ` import { HashRouter as Router } from 'react-router-dom'`_
+ * Inside your ReactDOM.render() function, you can then wrap the `<App />` component in `<Router></Router>` tags.
+
 
 ## Release 1
 
-Try starting with a couple of components that make up a home page. In the following image, the main header is in an `App` component, the left navigation is in a `Nav` component and the instructions are in a `Home` component. All of these are shown on the `/` route as you can see in the browser's address bar.
+Let's start with the couple of components that make up the home page. Check out the `App.jsx` component. It currently contains the main header as shown in the following image, the instructions are in a `Home` component, and the beginnings of the `Nav` component are also in place.
+
+ * Start by completing the `Nav` component so that it contains a list of rank names like in the image below.
+ * Import and use the `Route` component from `react-router-dom` so that the `Nav` will show on all pages, but `Home` will only show on `'/'`.
 
 ![after release 1](readme-images/release-1.png)
 
@@ -26,7 +35,12 @@ Note: _If you want to capitalise names, you'll need to write a `capitalise` func
 
 ## Release 2
 
-Next, add a route for `/list/:rank` that shows the available classifications for the selected rank. Notice how the classification listing replaced the `Home` component.
+Next, add a route for `/list/:rank` to your `App.jsx` that shows the classifications for the selected rank. 
+
+* Create a `Classifications` component for this route. It should use `params` to determine which rank type to list. 
+* You will also need to use the `Link` component from `react-router-dom` in your `Nav`, to link the user to the correct classification list.
+
+Notice how `Classifications` has replaced the `Home` component in the image below.
 
 ![after release 2](readme-images/release-2.png)
 
@@ -35,7 +49,9 @@ Note: _Don't worry about bolding the selected rank for the moment. You can come 
 
 ## Release 3
 
-When you select a classification, navigate to `/rank/:rank/:name`. It should show a component that shows the `name` and `description` of the classification.
+When you select a classification, it should navigate to `/rank/:rank/:name` (remember that `Link` component). 
+
+It should show a component that shows the `name` and `description` of the classification.
 
 ![after release 3](readme-images/release-3.png)
 
@@ -43,7 +59,11 @@ When you select a classification, navigate to `/rank/:rank/:name`. It should sho
 
 ## Release 4
 
-In this release, add a ```<Link to={`${props.match.url}/species`}>Show species</Link>``` and a `SpeciesListing` component that shows all species in the selected classification. This is the first time you'll need to use `data/species.js`.
+In this release, add a ```<Link to={`${props.match.url}/species`}>Show species</Link>``` and a nested route for `/list/:rank/:name/species` to your classification component from the previous release. 
+
+This route should render a `SpeciesListing` component that shows all species in the selected classification. 
+
+This is the first time you'll need to use `data/species.js`.
 
 ![after release 4](readme-images/release-4.png)
 

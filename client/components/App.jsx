@@ -1,8 +1,18 @@
 import React from 'react'
 
+import Nav from './Nav'
+import Home from './Home'
+
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+      <h1>Navigating the taxonomic routes</h1>
+      {/* This 'main' div is only for styling (so we can use flexbox) */}
+      <div className='main'>
+        <Nav />
+        <Home />
+      </div>
+    </>
   )
 }
 
