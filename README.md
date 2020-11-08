@@ -59,7 +59,7 @@ It should show a component that shows the `name` and `description` of the classi
 
 ## Release 4
 
-In this release, add a ```<Link to={`${props.match.url}/species`}>Show species</Link>``` and a nested route for `/list/:rank/:name/species` to your classification component from the previous release. 
+In this release, add a ```<Link to={`${props.match.url}/species`}>Show species</Link>``` and a nested route for `/rank/:rank/:name/species` to your classification component from the previous release. 
 
 This route should render a `SpeciesListing` component that shows all species in the selected classification. 
 
