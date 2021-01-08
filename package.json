@@ -23,12 +23,6 @@
       "@babel/plugin-proposal-object-rest-spread"
     ]
   },
-  "jest": {
-    "testURL": "http://localhost/",
-    "setupFiles": [
-      "./tests/setup-env.js"
-    ]
-  },
   "eslintConfig": {
     "extends": "eda",
     "ignorePatterns": [
@@ -44,8 +38,6 @@
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "7.9.0",
     "eslint-config-eda": "0.1.4",
     "jest": "^26.0.1",
