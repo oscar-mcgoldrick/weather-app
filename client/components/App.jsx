@@ -3,7 +3,7 @@ import React from 'react'
 import Nav from './Nav'
 import Home from './Home'
 
-const App = () => {
+function App () {
   return (
     <>
       <h1>Navigating the taxonomic routes</h1>
