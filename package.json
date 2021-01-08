@@ -29,6 +29,12 @@
       "./tests/setup-env.js"
     ]
   },
+  "eslintConfig": {
+    "extends": "eda",
+    "ignorePatterns": [
+      "bundle.js"
+    ]
+  },
   "author": "EDA",
   "license": "ISC",
   "devDependencies": {
