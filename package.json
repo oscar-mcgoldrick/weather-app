@@ -1,8 +1,8 @@
 {
-  "name": "taxonomic-routing",
+  "name": "worldwide-routing",
   "version": "0.2.0",
-  "description": "Using React Router to navigate the taxonomic rank",
-  "repository": "https://github.com/dev-academy-challenges/taxonomic-routing.git",
+  "description": "Using React Router to navigate the globe",
+  "repository": "https://github.com/dev-academy-challenges/worldwide-routing.git",
   "main": "server/index.js",
   "scripts": {
     "start": "run-p webpack server",
