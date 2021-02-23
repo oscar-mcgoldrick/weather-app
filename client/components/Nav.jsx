@@ -5,7 +5,7 @@ function Nav () {
     <div>
       <h2>Nav</h2>
       <ul>
-        <li>Build your ranks list here</li>
+        <li>Build your continent list here</li>
       </ul>
     </div>
   )
