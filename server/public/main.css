@@ -22,3 +22,7 @@ body {
 a {
   text-decoration-line: none;
 }
+
+img {
+  max-height: 200px;
+}
