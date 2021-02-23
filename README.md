@@ -69,7 +69,7 @@ Note: _We're using the continent name and country code for this route to help us
 
 ## Release 4
 
-Each of the countries has a list of it's neighbours' country codes. These should also be links so you can go and look at the country page for each of it's neighbours.
+Currently each country just shows a string of it's neighbours' country codes. Create a list that will show each neighbour's name instead and be a link to that country's page so you can visit the pages of neighbours easily.
 
 ![after release 4](readme-images/release-4.png)
 
@@ -80,6 +80,8 @@ Here are some ideas for future releases:
 
 * If you haven't already, add a _Home_ link in the `Nav` component.
 
-* Underline the selected continent in the `Nav` when viewing a continent or country and/or change the bullet point style (as shown in the release 4 screenshot) so users will know where they are.
+* Bold the selected continent in the `Nav` when viewing a continent or country and/or change the bullet point style (as shown in the release 4 screenshot) so users will know where they are.
+
+* Countries currently show up in the order decided by the data files. Add a feature to show them alphabetically or perhaps even by population.
 
 * Think about a different way you could navigate around this data and implement it in a different branch.
