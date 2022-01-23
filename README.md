@@ -23,7 +23,7 @@ server.get('*', (req, res) => {
 
 Set up `BrowserRouter` in your `client/index.js`. 
 
-* Import the router from 'react-router-dom' at the top of the file. _i.e. `import { BrowserRouter as Router } from 'react-router-dom'`_
+* Import the router from `react-router-dom` at the top of the file. _i.e. `import { BrowserRouter as Router } from 'react-router-dom'`_
 
 * Inside your `ReactDOM.render()` function, you can then wrap the `<App />` component in `<Router></Router>` tags. 
 
@@ -64,9 +64,11 @@ In this release, we'll create a component for an individual country. This is the
 
 * Create a route for this page. It should look something like: `/continent/:name/:code`. 
 
-Note: _We're using the continent name and country code for this route to help us later. The url path for the above suggestion will be entered into the browser as `/continent/Oceania/NZ`_
+Note: _We're using the continent name and country code for this route to help us later. The url path for the above suggestion will be entered into the browser as `/continent/Oceania/NZ`._
 
 * This route should render a `Country` component that shows all the information (in `data/countries`) about that specific country. 
+
+Note: _The flag emoji icons don't work in all browsers (e.g. in Windows they seem to work in Firefox but not Chrome). If you see `NZ` instead of the NZ flag, try a different browser._ 
 
 ![country after release 3](readme-images/release-3-a.png)
 
@@ -92,4 +94,6 @@ Here are some ideas for future releases:
 
 * Countries currently show up in the order decided by the data files. Add a feature to show them alphabetically or perhaps even by population.
 
-* Think about a different way you could navigate around this data and implement it in a different branch.
+* Read about React Router's [Nested Routes](https://reactrouter.com/docs/en/v6/getting-started/tutorial#nested-routes) and [Index Routes](https://reactrouter.com/docs/en/v6/getting-started/tutorial#index-routes). Now try nesting the routes for `Home`, `Continent` and `Country` within `Nav`. The `Home` component should render on the index route, i.e. when the URL is just `http://localhost:3000/`. 
+
+Note: _It's probably not good application design to have everything nested inside the `Nav` component (if it's called `Nav` it should just be for navigation!) but Nested Routes are a new and useful feature of React Router, and this stretch task will give you practice with them._
