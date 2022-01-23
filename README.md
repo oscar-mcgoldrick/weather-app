@@ -38,7 +38,9 @@ Let's start with the couple of components that make up the home page. Check out 
 
  Tip: _You can use `Object.keys()` on what is exported from `data/continents.js` to get a list of continent names._
 
- * Import and then use the `Routes` and `Route` components from `react-router-dom`, so that the `Home` component will only show on `'/'`. We want the `Nav` component to show on all pages, so it can sit outside the `Routes` component.
+ * Import and use the `Nav` component so that it shows on all pages.
+
+ * Import and then use the `Routes` and `Route` components from `react-router-dom`, so that the `Home` component will only show on `'/'`.
 
 ![after release 1](readme-images/release-1.png)
 
