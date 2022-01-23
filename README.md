@@ -1,6 +1,6 @@
 # Worldwide Routing
 
-This exercise has you building an experience to navigate continents and their countries. We'll use [React Router](https://github.com/ReactTraining/react-router) to create the links and pages and manage browser history.
+This exercise has you building an experience to navigate continents and their countries. We'll use [React Router](https://reactrouter.com/docs) to create the links and pages and manage browser history.
 
 
 ## Setup
@@ -13,9 +13,17 @@ npm install
 npm run dev
 ```
 
-Set up `HashRouter` in your `client/index.js`. 
+Add the configuration for `BrowserRouter` in your `server.js`.
 
-* Import the router from 'react-router-dom' at the top of the file. _i.e. ` import { HashRouter as Router } from 'react-router-dom'`_
+```js
+server.get('*', (req, res) => {
+  res.sendFile(path.resolve('server/public/index.html'))
+})
+```
+
+Set up `BrowserRouter` in your `client/index.js`. 
+
+* Import the router from 'react-router-dom' at the top of the file. _i.e. `import { BrowserRouter as Router } from 'react-router-dom'`_
 
 * Inside your `ReactDOM.render()` function, you can then wrap the `<App />` component in `<Router></Router>` tags. 
 
@@ -30,7 +38,7 @@ Let's start with the couple of components that make up the home page. Check out 
 
  Tip: _You can use `Object.keys()` on what is exported from `data/continents.js` to get a list of continent names._
 
- * Import and then use the `Route` component from `react-router-dom` so that the `Nav` component will show on all pages, but the `Home` component will only show on `'/'`.
+ * Import and then use the `Routes` and `Route` components from `react-router-dom`, so that the `Home` component will only show on `'/'`. We want the `Nav` component to show on all pages, so it can sit outside the `Routes` component.
 
 ![after release 1](readme-images/release-1.png)
 
@@ -39,7 +47,7 @@ Let's start with the couple of components that make up the home page. Check out 
 
 Next, add a route for `/continents/:name` to your `App.jsx`. We will use it to show the selected continent and its respective image from `data/continents.js` file. 
 
-* Create a `Continent` component for this route. It should use `params` to determine which continent to show. 
+* Create a `Continent` component for this route. Import `useParams` from `react-router-dom` and then use this to determine which continent to show. 
 
 * Use the `Link` component from `react-router-dom` in your `Nav` to create links for the user to the correct continent.
 
