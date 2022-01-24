@@ -47,7 +47,7 @@ Let's start with the couple of components that make up the home page. Check out 
 
 ## Release 2
 
-Next, add a route for `/continents/:name` to your `App.jsx`. We will use it to show the selected continent and its respective image from `data/continents.js` file. 
+Next, add a route for `continents/:name` to your `App.jsx`. We will use it to show the selected continent and its respective image from `data/continents.js` file. 
 
 * Create a `Continent` component for this route. Import `useParams` from `react-router-dom` and then use this to determine which continent to show. 
 
@@ -64,7 +64,7 @@ Notice how `Continent` has replaced the `Home` component in the image below.
 
 In this release, we'll create a component for an individual country. This is the first time you'll need to use `data/countries.js`.
 
-* Create a route for this page. It should look something like: `/continent/:name/:code`. 
+* Create a route for this page. It should look something like: `continent/:name/:code`. 
 
 Note: _We're using the continent name and country code for this route to help us later. The url path for the above suggestion will be entered into the browser as `/continent/Oceania/NZ`._
 
