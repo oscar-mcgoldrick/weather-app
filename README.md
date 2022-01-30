@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-Add the configuration for `BrowserRouter` in your `server.js`.
+Add the configuration for `BrowserRouter` in your `server.js` (this must go AFTER the line that sets up your `public` folder).
 
 ```js
 server.get('*', (req, res) => {
