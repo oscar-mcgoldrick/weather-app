@@ -60,7 +60,7 @@ Check out the `App.jsx` component. It currently contains the main header, a `<Ho
   <details style="padding-left: 2em">
     <summary>Tip</summary>
 
-    We can use `Object.keys()` on what is exported from `data/continents.js` to get a list of continent names.
+    We can use `Object.keys()` on what is exported from `data/continents.ts` to get a list of continent names.
   </details>
 
 - [ ] Import and use the `<Nav>` component so that it shows on all pages
