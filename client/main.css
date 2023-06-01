@@ -1,5 +1,5 @@
 body {
-  background-color: #faf8f1;
+  background-color: #fffffd;
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
 }
@@ -7,20 +7,41 @@ body {
 .main, .title {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
+
+.h1{
+  text-align: center;
+}
+
+
 .title img {
-  height: 5rem;
-  width: 5rem;
-  padding-right: 30px;
+  height: 20rem;
+  width: 25rem;
+  margin: -50px;
 }
 
 .main div {
   margin: 0px 10px 0px 10px;
 }
 
+.news-home {
+  flex-basis: 70rem;
+}
+
+.weather-home {
+  flex-basis: 70rem;
+}
+
+.city {
+  flex-basis: 90rem;
+}
+
 a {
   text-decoration-line: none;
+  color: inherit;
+  margin: 4rem;
 }
 
 a.active {
@@ -30,3 +51,11 @@ a.active {
 img {
   max-height: 200px;
 }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+

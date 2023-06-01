@@ -1,9 +1,15 @@
 function Home() {
   return (
-    <div>
-      <h2>Home</h2>
-      <p>Please select a continent from the nav list</p>
+    <>
+    <div className="weather-home">
+      <h2>Weather</h2>
+      <p>This will contain important weather information</p>
     </div>
+    <div className="news-home">
+    <h2>News</h2>
+      <p>This will contain general news</p>
+    </div>
+    </>
   )
 }
 
