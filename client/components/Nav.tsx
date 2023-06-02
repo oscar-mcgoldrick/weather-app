@@ -9,11 +9,9 @@ function Nav() {
     <div className="nav">
       <Link to="/"><h3>Home</h3></Link>
       <h2>Cities</h2>
-      <ul>
         {Object.keys(data).map(city => (
-          <Link to={`/city/${city}`} key={city}><li>{city}</li></Link>
+          <Link to={`/city/${city}`} key={city}><button>{city}</button></Link>
         ))}
-      </ul>
     </div>
   )
 }
