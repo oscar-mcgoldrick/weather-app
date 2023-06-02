@@ -1,18 +1,26 @@
 body {
   background-color: #fffffd;
   color: #0a1520;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Garamond', sans-serif;
 }
 
 .main, .title {
   display: flex;
   flex-direction: row;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  background-color: rgb(120, 158, 115);
+  border-radius: 1rem;
 }
 
 
-.h1{
+.title h1{
   text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 
@@ -28,10 +36,14 @@ body {
 
 .news-home {
   flex-basis: 70rem;
+  background-color: rgb(197, 255, 189);
+  border-radius: 1rem;
 }
 
 .weather-home {
   flex-basis: 70rem;
+  background-color: rgb(197, 255, 189);
+  border-radius: 1rem;
 }
 
 .city {
@@ -50,6 +62,7 @@ a.active {
 
 img {
   max-height: 200px;
+  padding-right: 5rem;
 }
 
 #footer {
